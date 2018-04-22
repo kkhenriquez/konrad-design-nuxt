@@ -3,7 +3,7 @@
     <div>
       <app-logo/>
       <h1 class="title">
-        konrad-design-nuxt
+        Kevin Konrad
       </h1>
       <h2 class="subtitle">
         Nuxt.js project
@@ -17,6 +17,9 @@
           href="https://github.com/nuxt/nuxt.js"
           target="_blank"
           class="button--grey">GitHub</a>
+        <a
+          href="about"
+          class="button--grey">About</a>
       </div>
     </div>
   </section>
