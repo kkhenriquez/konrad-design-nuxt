@@ -18,68 +18,57 @@
 
 <script>
 import AppLogo from '~/components/AppLogo.vue'
+import SocialNav from '~/components/SocialNav.vue'
 
 export default {
   components: {
-    AppLogo
+    AppLogo,
+    SocialNav
+  },
+  head() {
+    return {
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: "I'm a Designer and Frontend Developer that helps people and companies create better digital products."
+        }
+      ]
+    }
   }
 }
 </script>
 
 <style>
-/*
-.container {
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+:root {
+  --bg-color: #0F0F13;
+  --text-color: white;
+  --big-border-color: white;
+  --accent-color: #ffd300;
+  --secondary-text-color: #BFBEB8;
 }
-
-.title {
-  font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
-} */
 h1 {
   margin-top: 116px;
   margin-bottom: 14px;
-  font-size: 40px;
-  line-height: 1.275;
 }
-p {
+/* p {
   max-width: 30em;
   margin-bottom: 20px;
   font-size: 22px;
   line-height: 1.6818;
-}
+} */
 p span {
-  color: #ffd300;
+  color: var(--accent-color);
 }
 .about-link {
   display: inline-block;
   margin-bottom: 24px;
-  color: #BFBEB8;
+  color: var(--secondary-text-color);
   /* text-decoration: none; */
   font-size: 18px;
 }
 .about-link:hover {
-  color: white;
+  color: var(--text-color);
 }
 ul {
   list-style-type: none;
@@ -91,10 +80,19 @@ ul {
   margin-bottom: 8px;
 }
 .list-link {
-  color: #BFBEB8;
+  color: var(--secondary-text-color);
   padding-right: 16px;
 }
 .list-link:hover {
-  color: white;
+  color: var(--text-color);
+}
+@media screen and (min-width: 800px) {
+  p {
+    font-size: 28px;
+    line-height: 1.6071;
+  }
+  .about-link {
+    font-size: 22px;
+  }
 }
 </style>
