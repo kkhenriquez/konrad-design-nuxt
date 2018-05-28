@@ -7,12 +7,7 @@
       I'm a Designer and Frontend Developer that helps people and companies create better <span>digital products.</span>
     </p>
     <a href="/about" class="about-link">Know more about me.</a>
-    <ul>
-      <li class="list-item"><a href="https://twitter.com/kkhenriquez" class="list-link">Twitter</a></li>
-      <li class="list-item"><a href="https://codepen.io/kkhenriquez" class="list-link">Codepen</a></li>
-      <li class="list-item"><a href="https://github.com/kkhenriquez" class="list-link">Github</a></li>
-      <li class="list-item"><a href="https://www.behance.net/kkhenriquez" class="list-link">Behance</a></li>
-    </ul>
+    <SocialNav/>
   </main>
 </template>
 
@@ -85,6 +80,13 @@ ul {
 }
 .list-link:hover {
   color: var(--text-color);
+}
+.social-nav a {
+  margin-right: 4px;
+}
+.social-nav svg {
+  width: 24px;
+  height: 24px;
 }
 @media screen and (min-width: 800px) {
   p {
