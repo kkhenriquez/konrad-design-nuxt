@@ -8,7 +8,8 @@ module.exports = {
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { name: 'msapplication-TileColor', content: '#ffc40d'},
-      { name: 'theme-color', content: '#ffc40d'}
+      { name: 'theme-color', content: '#ffc40d'},
+      { name: 'google-site-verification', content: 'fgYo5oDQhtKQx9LAe06zajMPUoZ_4nOnEHIONLF7ojo'}
     ],
     link: [
       { rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.png' },
