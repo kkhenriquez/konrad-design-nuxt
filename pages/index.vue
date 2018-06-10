@@ -12,12 +12,10 @@
 </template>
 
 <script>
-import AppLogo from '~/components/AppLogo.vue'
 import SocialNav from '~/components/SocialNav.vue'
 
 export default {
   components: {
-    AppLogo,
     SocialNav
   },
   head() {
@@ -37,10 +35,9 @@ export default {
 <style>
 :root {
   --bg-color: #0F0F13;
-  --text-color: white;
   --big-border-color: white;
   --accent-color: #ffd300;
-  --secondary-text-color: #BFBEB8;
+  --secondary-text-color: #bfbeb8;
 }
 h1 {
   margin-top: 116px;
@@ -70,23 +67,6 @@ ul {
   padding-left: 0px;
   font-size: 18px;
   display: flex;
-}
-.list-item {
-  margin-bottom: 8px;
-}
-.list-link {
-  color: var(--secondary-text-color);
-  padding-right: 16px;
-}
-.list-link:hover {
-  color: var(--text-color);
-}
-.social-nav a {
-  margin-right: 4px;
-}
-.social-nav svg {
-  width: 24px;
-  height: 24px;
 }
 @media screen and (min-width: 800px) {
   p {
