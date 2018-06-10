@@ -41,4 +41,9 @@ module.exports = {
       }
     }
   }
+  modules: [
+    ['@nuxtjs/google-analytics', {
+      id: 'UA-75328737-3'
+    }]
+  ]
 }
