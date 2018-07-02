@@ -14,6 +14,7 @@ html {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
+  height: 100%;
 }
 
 *, *:before, *:after {
@@ -29,7 +30,7 @@ html {
 
 body {
   width: 100vw;
-  height: 100vh;
+  min-height: 100%;
   color: var(--text-color);
   background-color: var(--bg-color);
   /* display: grid;
