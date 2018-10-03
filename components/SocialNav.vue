@@ -33,6 +33,9 @@ export default {};
   --accent-color: #ffd300;
   --secondary-text-color: #bfbeb8;
 }
+.social-nav {
+  margin-bottom: 16px;
+}
 .social-nav a {
   margin-right: 4px;
   color: var(--secondary-text-color);
