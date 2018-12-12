@@ -3,7 +3,7 @@
     <h1>From idea to design to life.</h1>
     <p>My name is <span class="fw7">Kevin Konrad Henriquez</span>. I’m currently living in Santiago, Chile. My favorite things are knowing new places and learning about new topics.</p>
     <p>I consider myself as a <span class="fw7">UX Designer / Developer</span> — Bridging the gap between design and development.</p>
-    <p>I’m skilled at sketching, wireframing, making design patterns, <span class="fw7">interface design</span> and <span class="fw7">prototyping</span>. I love problem solving and simple solutions. I get excited about how technology impacts people’s life and working with other people. Also, I have a knack for learning new things quickly.</p>
+    <p>I’m skilled at sketching, wireframing, making design patterns, <span class="fw7">interface design</span> and <span class="fw7">prototyping</span>. I love solving problems and simple solutions. I get excited about how technology impacts people’s lives and working with other people. Also, I have a knack for learning new things quickly.</p>
     <p>I’m interested in maps, mythology and architecture. I like video games, tv, film and desserts.</p>
     <p>You can <a class="write-link" href="mailto:kevinkonrad93@gmail.com">write to me</a> if you want to know more about me or if you just want to chat.</p>
     <SocialNav/>
